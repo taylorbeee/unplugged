@@ -95,11 +95,31 @@ footer {
   flex-flow: row wrap;
 }
 
+.content-wrapper {
+  width: 100%;
+}
+
+/***HEADER STYLES***/
+
+header {
+  padding: 15px 0;
+}
+
+header img {
+  padding-top: 10px;
+}
+
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.header-divider {
+  width: 50%;
 }
 
 header nav {
@@ -107,13 +127,19 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  padding-top: 20px;
 }
 
 header nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 25%;
+  margin: 0;
 }
+
+/**MAIN STYLES**/
 
 aside {
   display: flex;
@@ -122,10 +148,31 @@ aside {
   flex-flow: row wrap;
 }
 
-.hero-area {
+.hero-area .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px 0;
+}
+
+aside {
+  padding: 50px 0;
+}
+
+aside h3 {
+  padding: 20px 0;
+}
+
+aside p {
+  padding-bottom: 30px;
+}
+
+input[type=text] {
+  padding-bottom: 20px;
+}
+
+input[type=button] {
+padding-top: 20px;
 }
 
 .form {
@@ -137,7 +184,22 @@ aside {
 .features {
   display: flex;
   justify-content: center;
-  align-items: space-around;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.features h2 {
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .features .features-items {
@@ -147,11 +209,33 @@ aside {
   flex-flow: row wrap;
 }
 
-.reviews {
+.features .features-items img {
+  padding: 30px 0 40px 0;
+}
+
+.features .features-items p {
+  padding-bottom: 30px;
+}
+
+.features article {
+
+}
+
+.reviews .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 0;
+}
+
+.reviews h2 {
+  padding-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  padding: 20px 0;
 }
 
 .mission {
@@ -161,16 +245,24 @@ aside {
   flex-flow: row wrap;
 }
 
-footer .social-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+/**FOOTER STYLES**/
+
+footer {
+  padding-top: 50px;
 }
 
-footer .social p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer h4 {
+  padding: 20px 0;
+}
+
+footer .contact p {
+  padding-bottom: 50px;
+  margin: 0;
 }
 
 .contact-section {
@@ -179,6 +271,25 @@ footer .social p {
   align-items: center;
   flex-flow: row wrap;
 }
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+footer .copyright {
+  padding: 20px 0;
+}
+
+/**FAQ STYLES**/
 
 .faq {
   display: flex;
@@ -193,6 +304,9 @@ footer .social p {
   align-items: center;
   flex-flow: row wrap;
 }
+
+/**ABOUT STYLES**/
+
 
 /* ==========================================================================
    Helper classes
