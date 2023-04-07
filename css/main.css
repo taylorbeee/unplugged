@@ -424,6 +424,10 @@ footer .social-icons {
 @media only screen and (min-width: 768px) {
 
   /*Tablet Syles Here*/
+  .content-wrapper {
+    max-width: 640px;
+  }
+
   header {
     padding: 33px 0;
     width: 100%;
@@ -566,12 +570,61 @@ footer .social-icons {
       justify-content: space-between;
       align-items: center;
 }
-
 }
 
 @media only screen and (min-width: 1200px) {
   /*Desktop Syles Here*/
+  .content-wrapper {
+    max-width: 960px;
+}
 
+header {
+  padding: 15px 0;
+}
+
+/* Hero */
+.hero-area h1 {
+   width: 70%;
+}
+
+/* Aside */
+aside .content-wrapper {
+   justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+   width: 30%;
+}
+
+/* Features */
+.features h2 {
+   width: 90%;
+}
+
+.features article {
+   flex-basis: 20%;
+}
+
+/* Reviews */ 
+.reviews article {
+   width: 45%;
+}
+
+/* ==========================================================================
+About Page
+========================================================================== */
+.mission h2,
+.contact-section .content-wrapper h2 {
+   width: 90%;
+}
+
+/* ==========================================================================
+FAQ Page
+========================================================================== */
+.faq h2 {
+   width: 100%;
+}
 }
 
 @media only screen and (min-width: 35em) {
