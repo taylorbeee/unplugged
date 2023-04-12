@@ -741,6 +741,10 @@ footer .social-icons {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -817,6 +821,10 @@ About Page
   .contact-section .content-wrapper h2 {
     width: 90%;
     font-size: 48px;
+  }
+
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   /* ==========================================================================
