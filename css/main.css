@@ -317,7 +317,7 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.features .features-items img {
+.features i {
   display: flex;
   justify-content: center;
   align-items: center;
