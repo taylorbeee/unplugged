@@ -940,15 +940,30 @@ footer .copyright {
     padding: 15px 0;
   }
 
+  header nav {
+    width: 30%;
+    align-items: center;
+  }
+
+
   /* Hero */
-  .hero-area h1 {
-    width: 70%;
+  .hero-area .content-wrapper h1 {
+    width: 60%;
+    font-size: 3.0em;
+    font-weight: 500;
+  }
+
+  .hero-area {
+    height: 525px;
   }
 
   /* Aside */
+
   aside .content-wrapper {
     justify-content: space-around;
   }
+
+
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
@@ -961,12 +976,21 @@ footer .copyright {
   }
 
   .features article {
-    flex-basis: 20%;
+    flex-basis: 26%;
   }
 
   /* Reviews */
+
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
   .reviews article {
-    width: 45%;
+    flex-basis: 42%; 
+    margin-right: 7px;
+  }
+
+  .reviews h3 {
+    padding-bottom: 10px;
   }
 
   /* ==========================================================================
@@ -976,6 +1000,14 @@ About Page
   .contact-section .content-wrapper h2 {
     width: 90%;
     font-size: 48px;
+  }
+
+  .mission h2 {
+    flex-basis: 90%;
+  }
+
+  .mission-content p {
+    flex-basis: 45%;
   }
 
   .map figure {
@@ -994,6 +1026,10 @@ FAQ Page
   .faq p {
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
   }
 }
 
