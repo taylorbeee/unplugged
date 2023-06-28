@@ -83,10 +83,6 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
 /* General Styles */
 
 html {
@@ -94,7 +90,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
@@ -109,21 +105,21 @@ a {
 }
 
 h1 {
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-size: 36px;
   line-height: 43px;
   font-weight: 500;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 500;
 }
 
 h3,
 h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
@@ -147,8 +143,6 @@ address {
 
 .content-wrapper {
   width: 90%;
-  /* margin: 50px 0;
-  padding-bottom: 50px; */
 }
 
 header,
@@ -159,8 +153,6 @@ footer {
   flex-flow: row wrap;
   background: #202322;
 }
-
-
 
 /***HEADER STYLES***/
 
@@ -189,7 +181,6 @@ header figure {
   width: 100%;
   height: 1px;
   background-color: #3a3a3a;
-
 }
 
 header nav {
@@ -201,7 +192,6 @@ header nav {
   padding-top: 10px;
   font-size: 18px;
   font-weight: bold;
-  /* border: red 2px dotted; */
 }
 
 header nav ul {
@@ -213,14 +203,9 @@ header nav ul {
   list-style: none;
   text-decoration: none;
   text-transform: uppercase;
-  /* border: green 2px dotted; */
 }
 
 header nav ul li {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  border: blue 2px dotted; */
   font-size: 1.15em;
   padding-right: 20%;
 }
@@ -228,7 +213,7 @@ header nav ul li {
 /**MAIN STYLES**/
 
 .hero-area {
-  background: url('../img/unplugged-retreat.jpg') center no-repeat #3a3a3a;
+  background: url("../img/unplugged-retreat.jpg") center no-repeat #3a3a3a;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -268,7 +253,7 @@ aside .form {
   padding-top: 0;
 }
 
-input[type=text] {
+input[type="text"] {
   box-sizing: border-box;
   width: 100%;
   color: #2a423a;
@@ -278,12 +263,12 @@ input[type=text] {
   font-weight: 500;
 }
 
-input[type=button] {
+input[type="button"] {
   width: 100%;
   padding: 20px 0;
   margin-top: 20px;
   background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.125em;
   color: #e2e3ed;
@@ -298,15 +283,14 @@ aside h3 {
 }
 
 aside p {
-  /* padding-bottom: 10px; */
   font-size: 1.05em;
 }
 
-input[type=text] {
+input[type="text"] {
   padding-bottom: 20px;
 }
 
-input[type=button] {
+input[type="button"] {
   padding-top: 20px;
 }
 
@@ -321,10 +305,10 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   padding: 50px 0;
-  background: url('../img/unplugged-retreat-features.jpg') center no-repeat #3a3a3a;
+  background: url("../img/unplugged-retreat-features.jpg") center no-repeat
+    #3a3a3a;
   background-size: cover;
 }
-
 
 .features h2 {
   padding-bottom: 60px;
@@ -362,8 +346,6 @@ input[type=button] {
 .features .features-items p {
   padding-bottom: 30px;
 }
-
-.features article {}
 
 .reviews {
   display: flex;
@@ -408,12 +390,6 @@ footer {
   flex-flow: row wrap;
 }
 
-footer .content-wrapper {
-  /* width: 55%;
-  margin: 50px 0; */
-
-}
-
 footer h4 {
   padding: 10px 0;
   width: 60%;
@@ -437,7 +413,6 @@ footer .contact address {
 }
 
 footer .contact p {
-  /* padding-bottom: 50px; */
   margin: 0;
 }
 
@@ -447,7 +422,6 @@ footer .social {
   align-items: center;
   flex-flow: row wrap;
 }
-
 
 footer .social-icons {
   display: flex;
@@ -468,8 +442,6 @@ footer i {
   border-radius: 50%;
   padding: 12px;
   text-align: center;
-  /* vertical-align: middle;
-  line-height: 20px; */
 }
 
 footer .copyright {
@@ -525,7 +497,6 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*flex-flow: row wrap;*/
 }
 
 .map figure {
@@ -552,9 +523,6 @@ footer .copyright {
   padding: 50px 0;
   font-style: normal;
 }
-
-.contact-content {}
-
 
 /* ==========================================================================
    Helper classes
@@ -638,15 +606,8 @@ footer .copyright {
   clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
 @media only screen and (min-width: 768px) {
-
-  /*Tablet Syles Here*/
+  /*Tablet Syles*/
   .content-wrapper {
     max-width: 640px;
   }
@@ -722,7 +683,6 @@ footer .copyright {
   aside .content-wrapper .form-description {
     margin: 0;
     width: 40%;
-
   }
 
   aside .content-wrapper .form {
@@ -737,7 +697,6 @@ footer .copyright {
   .features h2 {
     padding-bottom: 20px;
     font-size: 2em;
-    /* border: red 2px dotted; */
   }
 
   .features .content-wrapper {
@@ -792,7 +751,6 @@ footer .copyright {
     flex-basis: 50%;
     margin: 0;
     text-align: left;
-
   }
 
   .reviews h3 {
@@ -803,7 +761,6 @@ footer .copyright {
   .reviews p {
     padding: 0;
     margin: 0;
-
   }
 
   footer {
@@ -836,7 +793,6 @@ footer .copyright {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: blue 2px dotted; */
     width: 100%;
   }
 
@@ -844,7 +800,6 @@ footer .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: red 2px dotted; */
   }
 
   footer h4 {
@@ -852,7 +807,6 @@ footer .copyright {
     font-size: 24px;
     margin: 0;
   }
-
 
   /*********FAQ**********/
 
@@ -885,7 +839,6 @@ footer .copyright {
   }
 
   .mission-content h2 {
-    /* width: 100%; */
     flex-basis: 100%;
     font-size: 2.1em;
   }
@@ -907,13 +860,10 @@ footer .copyright {
     justify-content: space-between;
     align-items: baseline;
   }
-
-
 }
 
 @media only screen and (min-width: 1200px) {
-
-  /*Desktop Syles Here*/
+  /*Desktop Syles*/
   .content-wrapper {
     max-width: 960px;
   }
@@ -945,11 +895,10 @@ footer .copyright {
     align-items: center;
   }
 
-
   /* Hero */
   .hero-area .content-wrapper h1 {
     width: 60%;
-    font-size: 3.0em;
+    font-size: 3em;
     font-weight: 500;
   }
 
@@ -957,20 +906,15 @@ footer .copyright {
     height: 600px;
   }
 
-  /* Aside */
-
   aside .content-wrapper {
     justify-content: space-around;
   }
-
-
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     width: 30%;
   }
 
-  /* Features */
   .features h2 {
     width: 90%;
   }
@@ -979,13 +923,11 @@ footer .copyright {
     flex-basis: 26%;
   }
 
-  /* Reviews */
-
   .reviews h2 {
     padding-bottom: 50px;
   }
   .reviews article {
-    flex-basis: 42%; 
+    flex-basis: 42%;
     margin-right: 7px;
   }
 
@@ -993,9 +935,7 @@ footer .copyright {
     padding-bottom: 10px;
   }
 
-  /* ==========================================================================
-About Page
-========================================================================== */
+  /**********ABOUT*********/
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 90%;
@@ -1014,9 +954,7 @@ About Page
     padding-bottom: 37.5%;
   }
 
-  /* ==========================================================================
-FAQ Page
-========================================================================== */
+  /**********FAQ*********/
   .faq h2 {
     width: 100%;
     font-size: 48px;
@@ -1038,9 +976,9 @@ FAQ Page
 }
 
 @media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -1051,7 +989,6 @@ FAQ Page
    ========================================================================== */
 
 @media print {
-
   *,
   *::before,
   *::after {
